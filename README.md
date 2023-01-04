@@ -1,2 +1,2 @@
-# globeCity
+# Globe City
 Globe Store 

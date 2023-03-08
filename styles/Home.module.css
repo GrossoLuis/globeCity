@@ -7,6 +7,30 @@
   min-height: 100vh;
 }
 
+.banner{
+  background-color: black;
+  background-image: url(../public/img/banner.jpg);
+  background-size: cover;
+  height: 400px;
+
+  box-sizing: border-box;
+}
+
+.bannerInfo{
+  width: 80%;
+  padding: 40px;
+  color: white;
+
+}
+
+.bannerBackground{
+ background-color: rgba(0, 0, 0, 0.3); 
+ height: 400px;
+}
+
+
+
+
 .description {
   display: inherit;
   justify-content: inherit;

@@ -1,0 +1,69 @@
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.item{
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+
+}
+
+.item h3 {
+    font-size: 32px;
+    margin: 5px 0;
+}
+
+.page {
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+
+    box-shadow: 0 0 58px rgba(0, 0, 0, 0.15);
+    transform: scale(0);
+    animation: scale 0.3s ease forwards;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+
+.listItem{
+    display: flex;
+    gap: 10px;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 0;
+}
+
+.listItem h3 {
+    margin: 0;
+}
+
+
+@keyframes scale {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
